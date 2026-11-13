@@ -1,0 +1,26 @@
+{
+  "name": "محاسبهٔ نفس",
+  "short_name": "محاسبهٔ نفس",
+  "description": "ترازوی اعمال روزانه با چرخ هفته، زنجیره و کیف پول پاداش",
+  "dir": "rtl",
+  "lang": "fa",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#05050a",
+  "theme_color": "#05050a",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    { "name": "امروز", "url": "/?tab=today" },
+    { "name": "چرخ هفته", "url": "/?tab=dial" },
+    { "name": "گزارش", "url": "/?tab=report" }
+  ]
+}
